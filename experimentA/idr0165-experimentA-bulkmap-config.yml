@@ -1,0 +1,88 @@
+---
+name: idr0165-duinkerken-hyperspectraledx/experimentA
+version: 1
+
+defaults:
+  include: no
+  type: string
+  includeclient: yes
+  visible: yes
+  omitempty: yes
+
+columns:
+
+  - name: Characteristics [Organism Part]
+    clientname: Organism Part
+    include: yes
+
+  - name: Characteristics [Description]
+    clientname: Description
+    include: yes
+
+  - name: Characteristics [Diagnosis]
+    clientname: Diagnosis
+    include: yes
+
+  - name: Characteristics [Sex]
+    clientname: Sex
+    include: yes
+
+  - name: Characteristics [Age]
+    clientname: Age
+    include: yes
+
+  - name: Characteristics [Ethnic or Racial Group]
+    clientname: Ethnic or Racial Group
+    include: yes
+
+  - name: Experimental Condition [Sample ID]
+    clientname: Sample ID
+    include: yes
+
+  - name: Comment [nPOD ID]
+    clientname: nPOD ID
+    include: yes
+
+  - name: Comment [BioSample ID]
+    clientname: BioSample ID
+    include: yes
+
+  - name: Comment [BioSample URL]
+    clientname: BioSample URL
+    include: yes
+
+  - name: Comment [Nanotomy URL]
+    clientname: Nanotomy URL
+    include: yes
+
+  - name: Comment [Sample reused from]
+    clientname: Sample reused from
+    include: yes
+
+  - name: Comment [Original large-scale EM nanotomy]
+    clientname: Original large-scale EM nanotomy
+    include: yes
+
+  - name: Comment [Original large-scale EM IDR]
+    clientname: Original large-scale EM IDR
+    include: yes
+
+
+  ######################################################################
+  # mapr groups
+  ######################################################################
+
+  - group:
+      namespace: openmicroscopy.org/mapr/organism
+      columns:
+        - name: Characteristics [Organism]
+          clientname: Organism
+          include: yes
+
+
+advanced:
+  ignore_missing_primary_key: yes
+  primary_group_keys:
+    - namespace: openmicroscopy.org/mapr/organism
+      keys:
+        - Organism

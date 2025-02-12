@@ -1,5 +1,5 @@
-Dataset:name:npod control	/nfs/bioimage/drop/idr0165-duinkerken-hyperspectraledx/Figure1_Multichannel.ome.tif
-Dataset:name:npod control	/nfs/bioimage/drop/idr0165-duinkerken-hyperspectraledx/Figure3_Multichannel.ome.tif
-Dataset:name:npod control	/nfs/bioimage/drop/idr0165-duinkerken-hyperspectraledx/Figure3_Multicolor.ome.tif
-Dataset:name:Skin	/nfs/bioimage/drop/idr0165-duinkerken-hyperspectraledx/FigureS1_AbundanceMaps.ome.tif
-Dataset:name:Skin	/nfs/bioimage/drop/idr0165-duinkerken-hyperspectraledx/FigureS1_Elements.ome.tif
+Dataset:name:npod control	/uod/idr/filesets/idr0165-duinkerken-hyperspectraledx/Figure1_Multichannel.ome.tif
+Dataset:name:npod control	/uod/idr/filesets/idr0165-duinkerken-hyperspectraledx/Figure3_Multichannel.ome.tif
+Dataset:name:npod control	/uod/idr/filesets/idr0165-duinkerken-hyperspectraledx/Figure3_Multicolor.ome.tif
+Dataset:name:Skin	/uod/idr/filesets/idr0165-duinkerken-hyperspectraledx/FigureS1_AbundanceMaps.ome.tif
+Dataset:name:Skin	/uod/idr/filesets/idr0165-duinkerken-hyperspectraledx/FigureS1_Elements.ome.tif
